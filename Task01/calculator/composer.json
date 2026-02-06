@@ -1,0 +1,27 @@
+{
+    "name": "tenis/calculator",
+    "description": "Console calculator game",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+    "psr-4": {
+        "Tenis\\Calculator\\": "src/"
+    }
+},
+    "bin": [
+    "bin/calculator"
+    ],
+    "authors": [
+        {
+            "name": "tenishevR",
+            "email": "tenishev.brrrrrain@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.7"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^4.0"
+    }
+}
