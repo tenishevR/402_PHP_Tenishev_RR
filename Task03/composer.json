@@ -1,0 +1,17 @@
+{
+    "name": "tenishevr/calculator-slim",
+    "description": "Calculator game",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tenishevR",
+            "email": "tenishev.brrrrrain@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "slim/slim": "^4.0",
+        "slim/psr7": "^1.0"
+    }
+}

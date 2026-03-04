@@ -1,0 +1,8 @@
+# Игнорируем файлы базы данных
+db/*.db
+db/*.db-shm
+db/*.db-wal
+
+# Игнорируем зависимости Composer
+/vendor/
+composer.lock
